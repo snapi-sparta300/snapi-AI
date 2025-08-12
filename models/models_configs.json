@@ -9,9 +9,9 @@
   "2" : {
     "model_path": "./models/hand.pt",
     "mission_map": {
-      "1": "cup",
-      "2": "open",
-      "3": "v"
+      "3": "cup",
+      "4": "open",
+      "5": "v"
     }
   }
 }
