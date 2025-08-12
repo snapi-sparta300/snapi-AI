@@ -96,8 +96,8 @@ def predict():
         
         response_data = {
             'success' : True,
-            'challengeId' : challenge_id_str,
-            'missionId' : mission_id_str,
+            'challengeId' : data.get('challengeId'),
+            'missionId' : data.get('missionId'),
             'userId' : user_id,
             'tempImageId' : temp_image_id,
             'imageUrl' : image_url,
